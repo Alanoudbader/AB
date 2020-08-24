@@ -1,0 +1,151 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+    <title>Alanoud</title>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        function calc()
+        {
+        var num1 = parseInt(document.getElementById("num1").value);    
+      
+            document.getElementById("result").value = num1 * .15 + " Riyals"  ;
+            parseInt(document.getElementById("total").value);    
+            document.getElementById("total").value = num1 + 0.15*num1 + " Riyals"  ;
+            
+        }
+        </script>
+    </head>
+    
+        <style>
+   
+   {
+  margin: 0;
+}
+    .header {
+  background-color:ghostwhite;
+  padding: 20px;
+  text-align: center;
+}
+       
+    <style>
+        
+    
+    .redBox {
+        background-color: darkblue;
+        margin: 100px;
+        
+    
+    }
+        h1 {
+            color: black;
+            font-family: fantasy, serif;
+            font-size: 50px;
+             text-decoration-line: overline;
+            
+        }
+              h3 {
+            color: black;
+            font-family: fantasy , serif;
+            font-size: 20px;
+         text-emphasis-position: above;
+                  
+                  text-decoration-line: underline;
+            
+            
+        }
+              h4 {
+            color: darkslategray;
+            font-family:cursive, serif;
+            font-size: 20px;
+         text-emphasis-position: above;
+                  
+                 }
+            
+      
+      button {
+  background-color: whitesmoke; /* Green */
+  border: none;
+  color: black;
+  padding: 8px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+     
+        .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display:flow-root;
+  color: #f2f2f2;
+  text-align:left;
+  padding: 10px;
+ 
+}
+
+            p {
+  margin-left: auto;
+    margin-right: auto;
+    width: 10em
+}
+            
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    
+
+
+ input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: ghostwhite;
+  color: black;
+     
+}
+         
+    </style>
+       
+      <body style="background-color:darkslategray;">
+          
+    <div class="header">
+    <h1>Tax calculator </h1>
+     <h3> SaudiArabia</h3>
+       <h4>By <br> Alanoud Almutairiii</h4>
+        
+            </div>
+          <div class="topnav">
+  <a href="Feedback.html">Feed Back</a>
+
+               
+<p>
+         <label style=color:white for="num1">Enter a Price</label>
+         
+    <input type="text" id="num1" size="40px" width="40px" /> 
+              <br>
+          <button onclick="calc();">=</button> <br>
+          <br>
+       <label style=  color:white  for="result"  >Your Tax is :</label>
+    
+<input  type="text" id="result" size="30px" width="40px" ><br>
+                                                  
+          <label style=color:white for="total" >The Total is :</label>
+          <input type="text" id="total" size="30px">
+          </p>
+          </div>
+          
+          
+</body>
+</html>
+          
